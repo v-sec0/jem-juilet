@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Readex+Pro&display=swap");
+
+/* Body */
+body {
+  background-color: gray;
+}
+
+/* Navbar */
+nav {
+  font-family: "Readex Pro", sans-serif;
+}
+
+.nav-spaced-item {
+  margin-left: 50px;
+}
+
+#navbar-title {
+  font-size: 25px;
+}
+
+/* Main Container */
+#mainContainer {
+  background-color: white;
+  border-radius: 15px;
+}
