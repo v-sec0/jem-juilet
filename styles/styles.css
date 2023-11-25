@@ -19,7 +19,13 @@ nav {
 }
 
 /* Main Container */
-#mainContainer {
+.content-con {
   background-color: white;
   border-radius: 15px;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: darkslategray;
+  font-weight: 700;
 }
