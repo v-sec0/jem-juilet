@@ -3,6 +3,8 @@
 /* Body */
 body {
   background-color: gray;
+  font-family: "Readex Pro";
+  font-size: 13px;
 }
 
 /* Navbar */
@@ -33,4 +35,20 @@ nav {
 
 .after-img-p {
   margin-top: 10px;
+}
+
+/* Bottom Nav Links */
+#bottom-nav {
+  background-color: white;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 15px;
+}
+
+.bottom-nav-link {
+  color: white;
+  margin: 0px 10px;
+}
+
+#exampleUX {
+  color: white;
 }
