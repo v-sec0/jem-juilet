@@ -22,10 +22,15 @@ nav {
 .content-con {
   background-color: white;
   border-radius: 15px;
+  padding: 20px !important;
 }
 
 .custom-link {
   text-decoration: none;
   color: darkslategray;
   font-weight: 700;
+}
+
+.after-img-p {
+  margin-top: 10px;
 }
