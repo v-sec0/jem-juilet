@@ -1,306 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>What Grinds My Gears</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
-      crossorigin="anonymous"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles/styles.css" />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg bg-dark sticky-top"
-      data-bs-theme="dark"
-      role="tablist"
-    >
-      <div id="navbar-container" class="container">
-        <a id="navbar-title" class="navbar-brand" href="#"
-          ><strong>What Grinds</strong>
-          <i class="bi bi-gear-wide-connected"></i> My Gears
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarReviewLinks"
-          aria-controls="navbarReviewLinks"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarReviewLinks"
-        >
-          <div class="navbar-nav">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Grinds My Gears</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme="dark" role="tablist" data-aos="fade-down"
+    data-aos-once="true">
+    <div id="navbar-container" class="container">
+      <a id="navbar-title" class="navbar-brand" href="#"><strong>What Grinds</strong>
+        <i class="bi bi-gear-wide-connected"></i> My Gears
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarReviewLinks"
+        aria-controls="navbarReviewLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarReviewLinks">
+        <div class="navbar-nav">
+          <ul>
             <li class="nav-item" role="presentation">
-              <button
-                class="nav-link bottom-nav-link active"
-                id="ugly-duck"
-                data-bs-toggle="tab"
-                data-bs-target="#duck-tab"
-                role="tab"
-                aria-controls="duck-tab"
-                aria-selected="true"
-              >
+              <button class="nav-link bottom-nav-link active" id="ugly-duck" data-bs-toggle="tab"
+                data-bs-target="#duck-tab" role="tab" aria-controls="duck-tab" aria-selected="true">
                 🦆 Ugly Duckling
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button
-                class="nav-link bottom-nav-link"
-                id="beautiful-swan"
-                data-bs-toggle="tab"
-                data-bs-target="#swan-tab"
-                role="tab"
-                aria-controls="swan-tab"
-                aria-selected="false"
-              >
+              <button class="nav-link bottom-nav-link" id="beautiful-swan" data-bs-toggle="tab"
+                data-bs-target="#swan-tab" role="tab" aria-controls="swan-tab" aria-selected="false">
                 🦢 Beautiful Swan
               </button>
             </li>
-            <button type="button" class="btn btn-secondary">Source</button>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Main Content -->
-    <div class="tab-content" id="nav-Content">
-      <div
-        class="tab-pane fade show active mb-3"
-        id="duck-tab"
-        role="tabpanel"
-        aria-labelledby="ugly-duck"
-        tabindex="0"
-      >
-        <!-- Ugly Duck Content -->
-        <div class="content-con container mt-5 p-3">
-          <p>
-            <strong>You wanna know what grinds my gears?</strong> Bad UX Design.
-          </p>
-          <p>
-            It appears that when it comes to designing a logical UX for some
-            online services and sites, there's been somewhat trend going on
-            where everything else get bedazzled except for UX.
-          </p>
-          <p>
-            This is surprising due to how much UX matters when it comes to
-            retaining a user base. Down below, I will be examining a webiste
-            that I use often that is suffering from an ugly and ineffecient UX
-            design.
-          </p>
-        </div>
-        <div class="content-con container mt-5 p-3">
-          <p>
-            Down below is a snippet I've grabbed from one of my favorite sites,
-            <a class="custom-link" href="https://distrowatch.com/"
-              >DistroWatch</a
-            >.
-          </p>
-          <img
-            src="./styles/imgs/distroWatch.png"
-            alt="Distro Watch UX"
-            class="img-fluid"
-            style="width: 1250px"
-          />
-          <p class="after-img-p">
-            Immediately it is apparent that the site has not received an UX
-            update in quite a while, nonetheless the site does provide valuable
-            information and news about the latest developments around emerging
-            Linux distrobutions.
-          </p>
-        </div>
-        <div class="content-con container mt-5 p-3">
-          <p>
-            The main issue from this site isn't it's initial abhorrent
-            presentation, but rather the methods used in order to query for news
-            about the specific distrobution that one is searching for.
-          </p>
-          <p>
-            In order to find news about a specific distribution, one has to
-            fiddle around with serveral dropdown menus.
-          </p>
-          <div class="row">
-            <div class="col-4">
-              <img
-                src="./styles/imgs/distroWatchSearchName.png"
-                alt="Dropdown Search Name"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-4">
-              <img
-                src="./styles/imgs/distroWatchSearchMonth.png"
-                alt="Dropdown Search Month"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-4">
-              <img
-                src="./styles/imgs/distroWatchSearchYear.png"
-                alt="Dropdown Search Year"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <p class="after-img-p">
-            This is incredibly ineffecient considering that there are thousands
-            upon thousands of distrobutions, with new ones being made everyday.
-          </p>
-          <p>
-            So rathern then dealing with this, I have another design in mind!
-          </p>
-        </div>
-      </div>
-      <!-- Beautiful Swan Tab -->
-      <div
-        class="tab-pane fade"
-        id="swan-tab"
-        role="tablist"
-        aria-labelledby="beautiful-swan"
-        tabindex="0"
-      >
-        <div class="content-con container mt-5 p-3">
-          <p>
-            So in order to improve the design of Distro Watch, I've opted to use
-            search bars instead of the dropdowns.
-          </p>
-          <p>
-            This is because it would be much easier to serach for a distro and
-            have relevant results pop up rather than having to scroll and search
-            for the distro you want.
-          </p>
-          <p>
-            There are literally thousands of distros and some of them share
-            similar names so having a dropdown is suboptimal.
-          </p>
-        </div>
-        <div class="content-con container mt-5 p-3">
-          <p>So down below is what I would use</p>
-          <div id="exampleUX" class="container-fluid mb-2 bg-dark">
-            <form
-              id="exampleUXForm"
-              class="row g-3 needs-validation"
-              novalidate
-            >
-              <div class="col-sm-6">
-                <label for="distroName" class="form-label">Distrobution</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="distroName"
-                  pattern="\b[\w\s]{3,}\b"
-                  required
-                />
-                <div class="invalid-feedback">
-                  Please enter a valid distrobution name
-                </div>
-              </div>
-              <div class="col-sm-2">
-                <label for="distroRelease" class="form-label">Release</label>
-                <select
-                  name="distroRelease"
-                  id="distroRelease"
-                  class="form-select"
-                >
-                  <option value="All">All</option>
-                  <option value="Stable">Stable</option>
-                </select>
-              </div>
-              <div class="col-sm">
-                <label for="distroMonth" class="form-label">Month (xx)</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="All"
-                  id="distroMonth"
-                  pattern="^(0[1-9]|1[0-2])|([A-a][L-l][L-l])$"
-                  value="All"
-                />
-                <div class="invalid-feedback">Incorrect date format</div>
-              </div>
-              <div class="col-sm">
-                <label for="distroYear" class="form-label">Year (xxxx)</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="All"
-                  id="distroYear"
-                  pattern="^(200[1-9]|201[0-9]|202[0-3])|([A-a][L-l][L-l])$"
-                  value="All"
-                />
-                <div class="invalid-feedback">Incorrect date format</div>
-              </div>
-              <div class="col-sm-2 d-grid">
-                <button class="btn btn-primary" type="submit">Refresh</button>
-              </div>
-            </form>
-          </div>
-          <p>
-            This is a simple UX that will rely on in-house Search Engine
-            Optimization in order to give the end user the most accurate result.
-          </p>
-          <p>
-            It may prove slower at first but I feel like this approach is much
-            better than scrolling through thousands of distrobutions.
-          </p>
-          <p>
-            Down below you can see what is being searched for when the user
-            queries the site.
-          </p>
-          <div class="container-fluid mb-2 bg-dark" id="dummyConsole">
-            <p>
-              Entered Distrobution:
-              <span id="distroEnteredName" class="console-input">N/A</span>
-            </p>
-            <p>
-              Release Type:
-              <span id="distroEnteredRelease" class="console-input">N/A</span>
-            </p>
-            <p>
-              Target Date:
-              <span id="distroEnteredDate" class="console-input">ALL</span>
-            </p>
-            <br />
-            <p>
-              Possible Matches begin with:
-              <span id="distroQueryFirst" class="console-input">N/A</span>
-            </p>
-            <p>
-              Possible Matches end with:
-              <span id="distroQueryLast" class="console-input">N/A</span>
-            </p>
-          </div>
+          </ul>
         </div>
       </div>
     </div>
-    <!-- Scripts -->
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.slim.js"
-      integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./scripts/main.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  </body>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="tab-content" id="nav-Content">
+    <div class="tab-pane fade show active mb-3" id="duck-tab" role="tabpanel" aria-labelledby="ugly-duck" tabindex="0">
+      <!-- Ugly Duck Content -->
+      <div class="content-con container mt-5 p-3" data-aos="fade-right">
+        <p>
+          <strong>You wanna know what grinds my gears?</strong> Bad UX Design.
+        </p>
+        <p>
+          It appears that when it comes to designing a logical UX for some
+          online services and sites, there's been somewhat trend going on
+          where everything else get bedazzled except for UX.
+        </p>
+        <p>
+          This is surprising due to how much UX matters when it comes to
+          retaining a user base. Down below, I will be examining a webiste
+          that I use often that is suffering from an ugly and ineffecient UX
+          design.
+        </p>
+      </div>
+      <div class="content-con container mt-5 p-3" data-aos="fade-left">
+        <p>
+          Down below is a snippet I've grabbed from one of my favorite sites,
+          <a class="custom-link" href="https://distrowatch.com/">DistroWatch</a>.
+        </p>
+        <img src="./styles/imgs/distroWatch.png" alt="Distro Watch UX" class="img-fluid" style="width: 1250px">
+        <p class="after-img-p">
+          Immediately it is apparent that the site has not received an UX
+          update in quite a while, nonetheless the site does provide valuable
+          information and news about the latest developments around emerging
+          Linux distrobutions.
+        </p>
+      </div>
+      <div class="content-con container mt-5 p-3" data-aos="fade-up">
+        <p>
+          The main issue from this site isn't it's initial abhorrent
+          presentation, but rather the methods used in order to query for news
+          about the specific distrobution that one is searching for.
+        </p>
+        <p>
+          In order to find news about a specific distribution, one has to
+          fiddle around with serveral dropdown menus.
+        </p>
+        <div class="row">
+          <div class="col-4">
+            <img src="./styles/imgs/distroWatchSearchName.png" alt="Dropdown Search Name" class="img-fluid">
+          </div>
+          <div class="col-4">
+            <img src="./styles/imgs/distroWatchSearchMonth.png" alt="Dropdown Search Month" class="img-fluid">
+          </div>
+          <div class="col-4">
+            <img src="./styles/imgs/distroWatchSearchYear.png" alt="Dropdown Search Year" class="img-fluid">
+          </div>
+        </div>
+        <p class="after-img-p">
+          This is incredibly ineffecient considering that there are thousands
+          upon thousands of distrobutions, with new ones being made everyday.
+        </p>
+        <p>
+          So rathern then dealing with this, I have another design in mind!
+        </p>
+      </div>
+    </div>
+    <!-- Beautiful Swan Tab -->
+    <div class="tab-pane fade" id="swan-tab" role="tablist" aria-labelledby="beautiful-swan" tabindex="0">
+      <div class="content-con container mt-5 p-3" data-aos="fade-down">
+        <p>
+          So in order to improve the design of Distro Watch, I've opted to use
+          search bars instead of the dropdowns.
+        </p>
+        <p>
+          This is because it would be much easier to serach for a distro and
+          have relevant results pop up rather than having to scroll and search
+          for the distro you want.
+        </p>
+        <p>
+          There are literally thousands of distros and some of them share
+          similar names so having a dropdown is suboptimal.
+        </p>
+      </div>
+      <div class="content-con container mt-5 p-3" data-aos="fade-left">
+        <p>So down below is what I would use</p>
+        <div id="exampleUX" class="container-fluid mb-2 bg-dark">
+          <form id="exampleUXForm" class="row g-3 needs-validation" novalidate>
+            <div class="col-lg-6">
+              <label for="distroName" class="form-label">Distrobution</label>
+              <input type="text" class="form-control" id="distroName" pattern="\b[\w\s]{3,}\b" required>
+              <div class="invalid-feedback">
+                Please enter a valid distrobution name
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <label for="distroRelease" class="form-label">Release</label>
+              <select name="distroRelease" id="distroRelease" class="form-select">
+                <option value="All">All</option>
+                <option value="Stable">Stable</option>
+              </select>
+            </div>
+            <div class="col-lg">
+              <label for="distroMonth" class="form-label">Month (xx)</label>
+              <input type="text" class="form-control" placeholder="All" id="distroMonth"
+                pattern="^(0[1-9]|1[0-2])|([A-a][L-l][L-l])$" value="All">
+              <div class="invalid-feedback">Incorrect date format</div>
+            </div>
+            <div class="col-lg">
+              <label for="distroYear" class="form-label">Year (xxxx)</label>
+              <input type="text" class="form-control" placeholder="All" id="distroYear"
+                pattern="^(200[1-9]|201[0-9]|202[0-3])|([A-a][L-l][L-l])$" value="All">
+              <div class="invalid-feedback">Incorrect date format</div>
+            </div>
+            <div class="col-lg-2 d-grid">
+              <button class="btn btn-primary" type="submit">Refresh</button>
+            </div>
+          </form>
+        </div>
+        <p>
+          This is a simple UX that will rely on in-house Search Engine
+          Optimization in order to give the end user the most accurate result.
+        </p>
+        <p>
+          It may prove slower at first due to potential mispellings leading to
+          more time being dedicated to figuring out the correct name, but I
+          feel like this approach is much better than scrolling through
+          thousands of distrobutions.
+        </p>
+        <p>
+          Down below you can see what is being searched for when the user
+          queries the site.
+        </p>
+        <div class="container-fluid mb-2 bg-dark" id="dummyConsole">
+          <p>
+            Entered Distrobution:
+            <span id="distroEnteredName" class="console-input">N/A</span>
+          </p>
+          <p>
+            Release Type:
+            <span id="distroEnteredRelease" class="console-input">N/A</span>
+          </p>
+          <p>
+            Target Date:
+            <span id="distroEnteredDate" class="console-input">ALL</span>
+          </p>
+          <br>
+          <p>
+            Possible Matches begin with:
+            <span id="distroQueryFirst" class="console-input">N/A</span>
+          </p>
+          <p>
+            Possible Matches end with:
+            <span id="distroQueryLast" class="console-input">N/A</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
+    integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+  <script src="./scripts/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
