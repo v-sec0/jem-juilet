@@ -37,18 +37,15 @@ nav {
   margin-top: 10px;
 }
 
-/* Bottom Nav Links */
-#bottom-nav {
-  background-color: white;
-  font-family: "Readex Pro", sans-serif;
-  font-size: 15px;
-}
-
-.bottom-nav-link {
-  color: white;
-  margin: 0px 10px;
-}
-
+/* Swan */
 #exampleUX {
   color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#dummyConsole {
+  color: greenyellow;
+  border-radius: 10px;
+  padding: 30px;
 }
